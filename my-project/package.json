@@ -2,7 +2,7 @@
   "name": "my-project",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://redchristian20.github.io/dp-chartam-project/",
+  "homepage": "https://redchristian20.github.io/dp-chartam-project",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
