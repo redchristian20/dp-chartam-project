@@ -103,7 +103,7 @@ const Services = () => {
                     </div>
                 </div>
                 
-                <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Corporate <mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-blue-500">Office</mark></h1>
+                <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-400 md:text-5xl lg:text-6xl dark:text-white">Corporate <mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-blue-500">Office</mark></h1>
                 <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">5670 Wilshire Blvd, Ste 1800, Los Angeles, CA</p>
                 <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">626MB 2nd floor, GV Tower, Osmeña Blvd, Brgy 17, Cebu City, Philippines</p>
             </div>
