@@ -1,4 +1,9 @@
 import React from 'react'
+import ava from '../../assets/img/AVA.png'
+import vljb from '../../assets/img//vljb.png'
+import vaschool from '../../assets/img//vaschool.png'
+import wanderlust from '../../assets/img//wanderlust.png'
+import chaticons from '../../assets/img//chaticons.png'
 
 const Partners = () => {
   return (
@@ -6,19 +11,19 @@ const Partners = () => {
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Trusted Parters</h1>
         <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
             <div>
-                <img class="h-auto max-w-full rounded-lg" src="/img/AVA.png" alt=""/>
+                <img class="h-auto max-w-full rounded-lg" src={ava} alt=""/>
             </div>
             <div>
-                <img class="h-auto max-w-full rounded-lg" src="/img/vljb.png" alt=""/>
+                <img class="h-auto max-w-full rounded-lg" src={vljb} alt=""/>
             </div>
             <div>
-                <img class="h-auto max-w-full rounded-lg" src="/img/vaschool.png" alt=""/>
+                <img class="h-auto max-w-full rounded-lg" src={vaschool} alt=""/>
             </div>
             <div>
-                <img class="h-auto max-w-full rounded-lg" src="/img/wanderlust.png" alt=""/>
+                <img class="h-auto max-w-full rounded-lg" src={wanderlust} alt=""/>
             </div>
             <div>
-                <img class="h-auto max-w-full rounded-lg" src="/img/chaticons.png" alt=""/>
+                <img class="h-auto max-w-full rounded-lg" src={chaticons} alt=""/>
             </div>
         </div>
     </div>
