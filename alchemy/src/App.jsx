@@ -13,6 +13,8 @@ const App = () => {
       <Partners/>
       <Services/>
       <Footer/>
+      {//test
+      }
     </>
   )
 }
