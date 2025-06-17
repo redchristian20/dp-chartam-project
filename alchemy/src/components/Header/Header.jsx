@@ -33,6 +33,7 @@ const Header = () => {
             </div>
         </div>
         </nav>
+        <Outlet/>
     </div>
   )
 }
