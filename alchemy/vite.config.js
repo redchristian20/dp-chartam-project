@@ -8,6 +8,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/alchemy/"
+  base: "/dp-chartam-project/"
     
 })
