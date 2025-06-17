@@ -1,10 +1,19 @@
 import React from 'react'
-
+import * as motion from "motion/react-client"
 const Services = () => {
   return (
     <div>
         <section className="bg-white dark:bg-gray-900">
-            <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
+            <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                    duration: 0.8,
+                    delay:  2.5,
+                    ease: [0, 0.71, 0.2, 1.01],
+                    
+                }}
+            className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
                 
                 <div className="grid md:grid-cols-4 gap-8">
                     <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
@@ -48,12 +57,21 @@ const Services = () => {
                         </a>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </section>
         
 
         <section className="dark:bg-gray-900 bg-left bg-no-repeat bg-[url('/img/businessman.png')] bg-gray-700 bg-blend-multiply bg-contain">
-            <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
+            <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                    duration: 0.8,
+                    delay:  3,
+                    ease: [0, 0.71, 0.2, 1.01],
+                    
+                }}
+            className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
                 <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
                     <a href="#" className="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-blue-400 mb-2">
                         <svg className="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 14">
@@ -106,13 +124,11 @@ const Services = () => {
                 <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-400 md:text-5xl lg:text-6xl dark:text-white">Corporate <mark className="px-2 text-white bg-blue-600 rounded-sm dark:bg-blue-500">Office</mark></h1>
                 <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">5670 Wilshire Blvd, Ste 1800, Los Angeles, CA</p>
                 <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">626MB 2nd floor, GV Tower, Osmeña Blvd, Brgy 17, Cebu City, Philippines</p>
-            </div>
+            </motion.div>
             
             
         </section>
-
     </div>
-    
   )
 }
 
