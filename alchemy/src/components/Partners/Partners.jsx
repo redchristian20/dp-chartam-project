@@ -7,23 +7,23 @@ import chaticons from '../../assets/img//chaticons.png'
 
 const Partners = () => {
   return (
-    <div class="bg-center bg-no-repeat bg-yellow-500 bg-blend-multiply text-center">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Trusted Parters</h1>
-        <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
+    <div className="bg-center bg-no-repeat bg-yellow-500 bg-blend-multiply text-center p-4">
+        <h1 className="mb-8 text-3xl font-extrabold tracking-tight leading-none text-white md:text-4xl lg:text-5xl">Trusted Parters</h1>
+        <div className="grid grid-cols-3 md:grid-cols-5 gap-10 justify-center">
             <div>
-                <img class="h-auto max-w-full rounded-lg" src={ava} alt=""/>
+                <img className="h-auto max-w-full rounded-lg" src={ava} alt=""/>
             </div>
             <div>
-                <img class="h-auto max-w-full rounded-lg" src={vljb} alt=""/>
+                <img className="h-auto max-w-full rounded-lg" src={vljb} alt=""/>
             </div>
             <div>
-                <img class="h-auto max-w-full rounded-lg" src={vaschool} alt=""/>
+                <img className="h-auto max-w-full rounded-lg" src={vaschool} alt=""/>
             </div>
             <div>
-                <img class="h-auto max-w-full rounded-lg" src={wanderlust} alt=""/>
+                <img className="h-auto max-w-full rounded-lg" src={wanderlust} alt=""/>
             </div>
             <div>
-                <img class="h-auto max-w-full rounded-lg" src={chaticons} alt=""/>
+                <img className="h-auto max-w-full rounded-lg" src={chaticons} alt=""/>
             </div>
         </div>
     </div>
