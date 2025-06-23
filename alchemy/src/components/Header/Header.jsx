@@ -33,7 +33,7 @@ const Header = () => {
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 0.8 }}    
                 >
-                <a href="home" className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+                <a href="/" className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
                 </motion.li>
                 <motion.li
                     whileHover={{ scale: 1.2 }}
