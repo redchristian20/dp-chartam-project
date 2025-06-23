@@ -11,12 +11,12 @@ import ErrorPage from "./error-page";
 
 const router = createBrowserRouter([
   {
-    path: "https://redchristian20.github.io/dp-chartam-project/",
+    path: "/dp-chartam-project/",
     element: <Root />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "https://redchristian20.github.io/dp-chartam-project/about/",
+    path: "/dp-chartam-project/about/",
     element: <About />,
   },
 
