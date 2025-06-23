@@ -1,18 +1,19 @@
 import React from 'react'
 import logo from '../../assets/img/alchemy.png'
 import * as motion from "motion/react-client"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="bg-white dark:bg-gray-800">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div className="sm:flex sm:items-center sm:justify-between">
-                <a href="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                <Link to="/dp-chartam-project/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                     <motion.img
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 0.8 }}
                     src={logo} className="h-24 dark:invert" alt="Alchemy Logo" />
-                </a>
+                </Link>
                 <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                     <motion.li
                         whileHover={{ scale: 1.2 }}
@@ -25,15 +26,13 @@ const Footer = () => {
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                     >
-                        <motion.a 
-                        href="about" className="hover:underline me-4 md:me-6">About</motion.a>
+                        <Link to="/dp-chartam-project/about/" className="hover:underline me-4 md:me-6">About</Link>
                     </motion.li>
                     <motion.li
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                     >
-                        <motion.a 
-                        href="services" className="hover:underline me-4 md:me-6">Services</motion.a>
+                        <Link to="/dp-chartam-project/services/" className="hover:underline me-4 md:me-6">Services</Link>
                     </motion.li>
                 </ul>
             </div>
