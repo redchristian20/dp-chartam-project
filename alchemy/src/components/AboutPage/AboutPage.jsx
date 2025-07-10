@@ -20,7 +20,7 @@ const AboutPage = () => {
                         delay: 0.5,
                         ease: [0, 0.71, 0.2, 1.01],
                     }}
-                    className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+                    className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-white md:text-4xl lg:text-5xl">
                            WHO WE ARE
                     </motion.h1>
                     <motion.p
@@ -47,7 +47,7 @@ const AboutPage = () => {
                         delay: 1.5,
                         ease: [0, 0.71, 0.2, 1.01],
                     }}
-                    className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-6xl">
+                    className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-white md:text-4xl lg:text-5xl">
                            OUR HISTORY
                     </motion.h2>
                     <motion.h3
@@ -58,7 +58,7 @@ const AboutPage = () => {
                         delay: 2,
                         ease: [0, 0.71, 0.2, 1.01],
                     }}
-                    className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-yellow-500 md:text-5xl lg:text-6xl">
+                    className="mb-4 text-1xl font-extrabold tracking-tight leading-none text-yellow-500 md:text-2xl lg:text-3xl">
                            PROVIDING THE BEST
                     </motion.h3>
                     <motion.p
@@ -77,7 +77,7 @@ const AboutPage = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{
                         duration: .8,
-                        delay:  2.5,
+                        delay:  2.75,
                         ease: [0, 0.71, 0.2, 1.01],
                     }}
                     className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
@@ -88,7 +88,7 @@ const AboutPage = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{
                         duration: .8,
-                        delay:  2.5,
+                        delay:  3,
                         ease: [0, 0.71, 0.2, 1.01],
                     }}
                     className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
@@ -102,7 +102,7 @@ const AboutPage = () => {
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{
                                 duration: 0.8,
-                                delay:  3,
+                                delay:  3.5,
                                 ease: [0, 0.71, 0.2, 1.01],
                                 
                             }}

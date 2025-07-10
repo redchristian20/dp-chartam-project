@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Root from "./routes/root";
 import About from "./routes/about"
+import Services from "./routes/services"
+import Contact from "./routes/contact"
 import ErrorPage from "./error-page";
 
 const router = createBrowserRouter([
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
   {
     path: "/dp-chartam-project/about/",
     element: <About />,
+  },
+  {
+    path: "/dp-chartam-project/services/",
+    element: <Services />,
+  },
+  {
+    path: "/dp-chartam-project/contact/",
+    element: <Contact />,
   },
 
 ]);
