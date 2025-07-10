@@ -14,11 +14,10 @@ const Services = () => {
                     
                 }}
             className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
-                
                 <div className="grid md:grid-cols-4 gap-8">
                     <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
 
-                        <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Medical</h2>
+                        <h2 className="text-gray-900 dark:text-white text-2xl font-extrabold mb-2">Medical Practice</h2>
                         <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</p>
                         <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Read more
                             <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -28,7 +27,7 @@ const Services = () => {
                     </div>
                     <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
 
-                        <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Customer Service</h2>
+                        <h2 className="text-gray-900 dark:text-white text-2xl font-extrabold mb-2">Customer Service</h2>
                         <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</p>
                         <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Read more
                             <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -38,7 +37,7 @@ const Services = () => {
                     </div>
                     <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
 
-                        <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Property Management</h2>
+                        <h2 className="text-gray-900 dark:text-white text-2xl font-extrabold mb-2">Property Management</h2>
                         <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</p>
                         <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Read more
                             <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -48,7 +47,7 @@ const Services = () => {
                     </div>
                     <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
 
-                        <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Insurance Agency</h2>
+                        <h2 className="text-gray-900 dark:text-white text-2xl font-extrabold mb-2">Insurance Agency</h2>
                         <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</p>
                         <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Read more
                             <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">

@@ -23,11 +23,18 @@ const Hero = () => {
                     ease: [0, 0.71, 0.2, 1.01],
                 }}
                 className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-                    IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING INDUSTRY. LOREM IPSUM HAS BEEN THE INDUSTRY'S
-                    STANDARD DUMMY TEXT EVER SINCE THE 1500S, WHEN AN UNKNOWN PRINTER TOOK A GALLEY OF TYPE AND SCRAMBLED IT TO MAKE A TYPE SPECIMEN BOOK. 
-                    IT HAS SURVIVED NOT ONLY FIVE CENTURIES, BUT ALSO THE LEAP INTO ELECTRONIC TYPESETTING, REMAINING ESSENTIALLY UNCHANGED. 
-                    IT WAS POPULARISED IN THE 1960S WITH THE RELEASE OF LETRASET SHEETS CONTAINING LOREM IPSUM PASSAGES, AND MORE RECENTLY 
-                    WITH DESKTOP PUBLISHING SOFTWARE LIKE ALDUS PAGEMAKER INCLUDING VERSIONS OF LOREM IPSUM.
+                    “Whether you are a corporation, private practice or small business, Alchemy will be your virtual partner in delivering the best quality service experience to your clientele. Whichever part of the world or what time zone you are in, we work while you sleep. in short, WE DELIVER. Alchemy takes pride and commitment to being the virtual extension of your team. Let’s work together!”
+                </motion.p>
+                <motion.p
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                    duration: 0.8,
+                    delay:  1,
+                    ease: [0, 0.71, 0.2, 1.01],
+                }}
+                className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+                    Marinez Burnett – Founder and President
                 </motion.p>
                 <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
@@ -43,7 +50,7 @@ const Hero = () => {
                     <motion.a
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 0.8 }}
-                    href="#" className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                    href="/dp-chartam-project/about/" className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
                         Learn more about us
                     </motion.a>  
                 </motion.div>
