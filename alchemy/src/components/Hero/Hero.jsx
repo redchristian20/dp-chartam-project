@@ -24,6 +24,17 @@ const Hero = () => {
                     ease: [0, 0.71, 0.2, 1.01],
                 }}
                 className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+                    Alchemy’s mission is to use a combination of powerful technology and a highly skilled workforce to create a virtual extension to a variety of service-oriented teams providing highly skilled and experienced personnel that assist in administration needs; thereby increasing your staff capacity, operations and efficiency.
+                </motion.p>
+                <motion.p
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                    duration: 0.8,
+                    delay:  .75,
+                    ease: [0, 0.71, 0.2, 1.01],
+                }}
+                className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
                     “Whether you are a corporation, private practice or small business, Alchemy will be your virtual partner in delivering the best quality service experience to your clientele. Whichever part of the world or what time zone you are in, we work while you sleep. in short, WE DELIVER. Alchemy takes pride and commitment to being the virtual extension of your team. Let’s work together!”
                 </motion.p>
                 <motion.p
