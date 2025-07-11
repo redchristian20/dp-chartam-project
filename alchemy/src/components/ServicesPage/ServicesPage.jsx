@@ -8,10 +8,18 @@ import { Link } from "react-router-dom";
 const ServicesPage = () => {
   return (
     <div>
-        <section class="bg-white dark:bg-gray-900">
-            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
+        <section class="bg-white dark:bg-gray-900 ">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 ">
                 <div class="grid md:grid-cols-2 gap-8 mb-8">
-                    <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+                    <motion.div 
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                        duration: 0.8,
+                        delay:  .5,
+                        ease: [0, 0.71, 0.2, 1.01],
+                    }}
+                    className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
                         <a href="#">
                             <img class="rounded-t-lg" src={img1} alt="" />
                         </a>
@@ -39,10 +47,17 @@ const ServicesPage = () => {
                                     Administrative tasks.
                                 </li>
                             </ul>
-
                         </div>
-                    </div>
-                    <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+                    </motion.div>
+                    <motion.div
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                        duration: 0.8,
+                        delay:  .75,
+                        ease: [0, 0.71, 0.2, 1.01],
+                    }}
+                     class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
                         <a href="#">
                             <img class="rounded-t-lg" src={img2} alt="" />
                         </a>
@@ -68,10 +83,18 @@ const ServicesPage = () => {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
                 <div class="grid md:grid-cols-2 gap-8">
-                    <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+                    <motion.div
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                        duration: 0.8,
+                        delay:  1,
+                        ease: [0, 0.71, 0.2, 1.01],
+                    }}
+                     class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
                         <a href="#">
                             <img class="rounded-t-lg" src={img3} alt="" />
                         </a>
@@ -100,8 +123,15 @@ const ServicesPage = () => {
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+                    </motion.div>
+                    <motion.div
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                        duration: 0.8,
+                        delay:  1.25,
+                        ease: [0, 0.71, 0.2, 1.01],
+                    }} class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
                         <a href="#">
                             <img class="rounded-t-lg" src={img4} alt="" />
                         </a>
@@ -124,31 +154,75 @@ const ServicesPage = () => {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
             <section class="bg-cover bg-center bg-[url('/img/img5.jpg')] bg-gray-900 bg-blend-multiply">
                 <div class="px-4 mx-auto max-w-screen-xl text-justify py-24 lg:py-56">
                     <div class="text-center">
-                        <h1 class="mb-8 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">We Are Waiting to Serve You!</h1>
-                        
+                        <motion.h1
+                                        initial={{ opacity: 0, scale: 0.5 }}
+                                        animate={{ opacity: 1, scale: 1 }}
+                                        transition={{
+                                            duration: 0.8,
+                                            delay: 1.5,
+                                            ease: [0, 0.71, 0.2, 1.01],
+                                        }}
+                                        class="mb-8 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+                            We Are Waiting to Serve You!
+                        </motion.h1>
                     </div>
-                    <h2 class="mb-4 text-4x2 font-extrabold tracking-tight sm:px-16 lg:px-48 leading-none text-yellow-500 md:text-3xl lg:text-4xl">Locations</h2>
-                    <p class="mb-4 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+                    <motion.h2
+                                        initial={{ opacity: 0, scale: 0.5 }}
+                                        animate={{ opacity: 1, scale: 1 }}
+                                        transition={{
+                                            duration: 0.8,
+                                            delay: 1.75,
+                                            ease: [0, 0.71, 0.2, 1.01],
+                                        }} 
+                    class="mb-4 text-4x2 font-extrabold tracking-tight sm:px-16 lg:px-48 leading-none text-yellow-500 md:text-3xl lg:text-4xl">
+                        Locations
+                    </motion.h2>
+                    <motion.p
+                                    initial={{ opacity: 0, scale: 0.5 }}
+                                    animate={{ opacity: 1, scale: 1 }}
+                                    transition={{
+                                        duration: 0.8,
+                                        delay:  2,
+                                        ease: [0, 0.71, 0.2, 1.01],
+                                    }}
+                    
+                    class="mb-4 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
                         5070 Indigo Bay Blvd. Suite 202 Estero FL
                         GSMA Bldg. Gov. Luna cor. Ortega Sts. Brgy 4 City of San Fernando La Union Philippines
-                    </p>
-                    <p class="mb-4 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+                    </motion.p>
+                    <motion.p
+                                    initial={{ opacity: 0, scale: 0.5 }}
+                                    animate={{ opacity: 1, scale: 1 }}
+                                    transition={{
+                                        duration: 0.8,
+                                        delay:  2.25,
+                                        ease: [0, 0.71, 0.2, 1.01],
+                                    }}
+                    class="mb-4 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
                         GSMA Bldg. Gov. Luna cor. Ortega Sts. Brgy 4 City of San Fernando La Union Philippines
-                    </p>
-                    <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                    </motion.p>
+                    <motion.div 
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                        duration: 0.8,
+                        delay:  2.5,
+                        ease: [0, 0.71, 0.2, 1.01],
+                    }}
+                    class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
                         <Link to="/dp-chartam-project/contact/" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                             Contact us
                             <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                             </svg>
                         </Link>
-                    </div>
+                    </motion.div>
                 </div>
             </section>
         </section>

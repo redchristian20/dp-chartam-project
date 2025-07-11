@@ -15,7 +15,7 @@ const Partners = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                     duration: 0.8,
-                    delay:  2,
+                    delay:  1.5,
                     ease: [0, 0.71, 0.2, 1.01],
                     
                 }}
@@ -25,7 +25,7 @@ const Partners = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                     duration: 0.8,
-                    delay:  2,
+                    delay:  1.75,
                     ease: [0, 0.71, 0.2, 1.01],
                     
                 }}

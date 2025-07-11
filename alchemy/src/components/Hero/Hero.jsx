@@ -1,5 +1,6 @@
 import React from 'react'
 import * as motion from "motion/react-client"
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const Hero = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                     duration: 0.8,
-                    delay:  1,
+                    delay:  .75,
                     ease: [0, 0.71, 0.2, 1.01],
                 }}
                 className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
@@ -41,18 +42,14 @@ const Hero = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                     duration: 0.8,
-                    delay:  1.5,
+                    delay:  1.25,
                     ease: [0, 0.71, 0.2, 1.01],
                     
                 }}
-                
                 className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                    <motion.a
-                    whileHover={{ scale: 1.2 }}
-                    whileTap={{ scale: 0.8 }}
-                    href="/dp-chartam-project/about/" className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-                        Learn more about us
-                    </motion.a>  
+                <Link to="/dp-chartam-project/about/" className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                    Learn more about us
+                </Link>
                 </motion.div>
             </div>
         </section>

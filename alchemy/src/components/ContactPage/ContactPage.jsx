@@ -4,7 +4,16 @@ import * as motion from "motion/react-client"
 const ContactPage = () => {
   return (
     <div>
-      <section class="bg-gray-50 dark:bg-gray-900">
+      <motion.section 
+        initial={{ opacity: 0, scale: 0.5 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      transition={{
+                          duration: 0.8,
+                          delay:  .5,
+                          ease: [0, 0.71, 0.2, 1.01],
+                          
+                      }}
+        class="bg-gray-50 dark:bg-gray-900">
           <div class="py-4 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
               <div class="flex flex-col justify-center text-center">
                   <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-4xl">
@@ -68,7 +77,7 @@ const ContactPage = () => {
                   </div>
               </div>
           </div>
-      </section>
+      </motion.section>
     </div>
   )
 }
