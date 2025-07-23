@@ -9,6 +9,7 @@ import Root from "./routes/root";
 import About from "./routes/about"
 import Services from "./routes/services"
 import Contact from "./routes/contact"
+import PrivacyPolicy from "./routes/privacypolicy"
 import ErrorPage from "./error-page";
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/dp-chartam-project/contact/",
     element: <Contact />,
+  },
+  {
+    path: "/dp-chartam-project/privacypolicy/",
+    element: <PrivacyPolicy />,
   },
 
 ]);

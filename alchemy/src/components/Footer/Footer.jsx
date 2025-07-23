@@ -34,6 +34,12 @@ const Footer = () => {
                     >
                         <Link to="/dp-chartam-project/services/" className="hover:underline me-4 md:me-6">Services</Link>
                     </motion.li>
+                    <motion.li
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                    >
+                        <Link to="/dp-chartam-project/privacypolicy/" className="hover:underline me-4 md:me-6">Privacy Policy</Link>
+                    </motion.li>
                 </ul>
             </div>
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
